@@ -38,9 +38,9 @@ public class SeleniumBasics {
 		//driver.findElement(By.id("id_gender1")).click();
 		driver.findElement(By.name("firstname")).sendKeys("Madusha");
 		driver.findElement(By.name("lastname")).sendKeys("Maduwanthi");
-		driver.findElement(By.name("company")).sendKeys("Telexar");
-		driver.findElement(By.name("address1")).sendKeys("Telexar");
-		driver.findElement(By.name("address2")).sendKeys("Telexar2");
+		driver.findElement(By.name("company")).sendKeys("ABC");
+		driver.findElement(By.name("address1")).sendKeys("abc1");
+		driver.findElement(By.name("address2")).sendKeys("abc2");
 		driver.findElement(By.name("city")).sendKeys("Tangalle");
 		Select drpDown = new Select(driver.findElement(By.name("id_state")));
 		drpDown.selectByIndex(3);
